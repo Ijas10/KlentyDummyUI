@@ -1,0 +1,34 @@
+.listItems {
+  background: #ffffff;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.08);
+  border-radius: 20px;
+  padding: 24px;
+  margin-bottom: 24px;
+}
+.cardImage {
+  width: 60px;
+  height: 60px;
+}
+.cardItemHead {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.01em;
+  color: #120155;
+}
+.cardItemDescription {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.01em;
+  color: #343434;
+}
+@media screen and (min-width: 768px) {
+  .listItems {
+    margin: 20px;
+  }
+}

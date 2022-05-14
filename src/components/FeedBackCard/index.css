@@ -1,0 +1,81 @@
+.personPhoto {
+  width: 263.75px;
+  height: 327.17px;
+  align-self: center;
+}
+.reviewCard {
+  display: flex;
+  flex-direction: column;
+}
+.doubleQuotes {
+  margin-top: 80px;
+}
+.paraReview {
+  font-family: 'Poppins';
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 40px;
+  color: #120155;
+  margin-bottom: 38px;
+}
+.companyLogoContainer {
+  display: flex;
+  align-items: center;
+  padding-left: 40px;
+  padding-right: 20px;
+}
+.hr {
+  transform: rotate(90deg);
+  color: black;
+  width: 80px;
+}
+.founderName {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #000000;
+  margin-bottom: 0px;
+}
+.designation {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #000000;
+  margin-top: 5px;
+}
+@media screen and (min-width: 768px) {
+  .reviewCard {
+    display: flex;
+    flex-direction: row;
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+  .personPhoto {
+    order: 1;
+  }
+  .paraReview {
+    padding-right: 60px;
+  }
+  .companyLogoContainer {
+    align-self: flex-start;
+    padding-right: 40%;
+    margin-top: 0px;
+  }
+  .founderName {
+    font-size: 20px;
+  }
+  .designation {
+    font-size: 16px;
+  }
+  .paraReview {
+    margin-bottom: 20px;
+  }
+}

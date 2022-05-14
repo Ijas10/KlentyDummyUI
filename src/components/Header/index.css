@@ -1,0 +1,111 @@
+.klentyLogo {
+  width: 128.06px;
+  height: 60px;
+}
+.tryForFreeBtn {
+  width: 130px;
+  height: 45px;
+  background: #5856ce;
+  border-radius: 4px;
+  color: white;
+  border: 0px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  flex-shrink: 0;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px;
+  padding-left: 40px;
+  padding-right: 38px;
+}
+.noOutlineBtn {
+  border: 0px;
+  background-color: transparent;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  margin-right: 30px;
+
+  color: #05034e;
+}
+.blueBtn {
+  padding: 12px 16px;
+  gap: 10px;
+  background-color: transparent;
+  width: 147px;
+  height: 45px;
+  margin-right: 20px;
+
+  /* CTA purple */
+
+  border: 1px solid #5856ce;
+  border-radius: 4px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+
+  text-transform: capitalize;
+
+  /* CTA purple */
+
+  color: #5856ce;
+}
+
+@media (max-width: 575px) {
+  .header-container {
+    padding: 15px;
+  }
+  .noOutlineBtn {
+    display: none;
+  }
+  .blueBtn {
+    display: none;
+  }
+}
+
+.nav-items-list {
+  display: flex;
+  padding-left: 0px;
+  display: none;
+}
+
+@media (min-width: 575px) {
+  .nav-items-list {
+    display: flex;
+    margin-left: 40px;
+  }
+}
+
+.link-item {
+  list-style-type: none;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  margin-right: 25px;
+
+  color: #05034e;
+}
+
+.headerFirstCont {
+  display: flex;
+  align-items: center;
+}
+.headerLastPart {
+  display: flex;
+  align-items: center;
+}
